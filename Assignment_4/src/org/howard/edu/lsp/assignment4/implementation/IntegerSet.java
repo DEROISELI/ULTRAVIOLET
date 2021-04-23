@@ -15,8 +15,9 @@ public class IntegerSet  {
 	private List<Integer> set = new ArrayList<Integer>();
 
 	// Clears the internal representation of the set
-public void clear() {
+public void clear(String caption) {
 	set.clear();
+	
 };
 
 
@@ -104,7 +105,9 @@ public void remove(int item)  {
  
 
 // Set union
-public void union(IntegerSet intSetb) {};
+public void union(IntegerSet intSetb){
+	
+};
 
 // Set intersection
 public void intersect(IntegerSet intSetb) {}; 
